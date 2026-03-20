@@ -1,0 +1,5 @@
+# Ignore large/local data and temp outputs
+__pycache__/
+*.pyc
+dataset/
+temp/
