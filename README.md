@@ -243,3 +243,5 @@ streamlit run ui/app.py
 - **torchvision** — EfficientNet-B0 pretrained model
 
 ---
+
+Developed under the mentorship of iCog Labs.
