@@ -1,0 +1,40 @@
+
+# requirements.txt
+
+# Install everything with:
+#   pip install -r requirements.txt
+#
+# If you are on Linux (which you are based on your terminal):
+#   pip install -r requirements.txt
+#
+# For PyTorch specifically — this installs CPU version
+# If you have GPU run this instead AFTER pip install:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+
+# ── Core Computer Vision ─────────────────────────────────
+opencv-python==4.9.0.80        # cv2 — frame extraction, optical flow, drawing
+opencv-contrib-python==4.9.0.80 # extra cv2 modules
+
+# ── Image Processing ─────────────────────────────────────
+Pillow==10.3.0                 # PIL — image loading for CNN dataloader
+scikit-image==0.22.0           # SSIM, LBP (local binary pattern)
+
+# ── Numerical Computing ───────────────────────────────────
+numpy==1.26.4                  # arrays, math operations everywhere
+scipy==1.13.0                  # signal processing (used in utils)
+
+# ── Deep Learning ─────────────────────────────────────────
+torch==2.3.0                   # CNN model, training
+torchvision==0.18.0            # image transforms, pretrained models
+
+# ── Data Science / Evaluation ────────────────────────────
+scikit-learn==1.4.2            # accuracy, precision, recall, F1
+pandas==2.2.2                  # data handling for results/metrics
+matplotlib==3.8.4              # plotting graphs and visualizations
+seaborn==0.13.2                # confusion matrix visualization
+
+# ── UI ────────────────────────────────────────────────────
+streamlit==1.35.0              # web UI for video upload and results
+
+# ── Utilities ─────────────────────────────────────────────
+tqdm==4.66.4                   # progre
